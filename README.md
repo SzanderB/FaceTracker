@@ -26,3 +26,5 @@ Periodic: Get Joystick (read joystick values every 50 ms)
 Aperiodic: UART (received from Beaglebone), and Button (for switching manual/auto)
 
 It took a lot of tinkering of values, but finally got a working K controller that followed your face. It was not very fast, I think there were several problems. The camera was very slow, it felt like there was almost around a second delay from when it took the picture to when it was available to process. Also, it took time to get the facial detection running, so overall a large delay. If moving slowly, it worked and would center on my face. However, since I could not make the controller move the camera too fast, or it would move me out of frame. The ending product worked, it was just a little slow.
+
+I realize months later that the speed also had to do with the fact that my face took up 70% of the frame already. If I backed up, I would be less of the screen and therefore the adjustments for centering me would be easier for the process to calculate and realize a change within that 4fps I was able to obtain.
