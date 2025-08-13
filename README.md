@@ -4,7 +4,9 @@
 
 ## Overview
 A real-time security camera system that detects and tracks faces using a USB webcam, controlled via a Beaglebone Black and TIVA C LaunchPad.  
-Features both **automatic tracking** via a PID-style controller and **manual joystick control** for pan/tilt operation.
+Features both **automatic tracking** via a PID-style controller and **manual joystick control** for pan/tilt operation.  
+
+**NOTE:** This project choice was personal (i.e. I was the only one to do this project). However, RTOS Code framework is a school assignment to program so I can't include most of it. Examples of it are found in the DinoRun directory as they use the same RTOS.
 
 ## Features
 - Real-time face detection with OpenCV
